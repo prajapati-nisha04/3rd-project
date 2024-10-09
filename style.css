@@ -1,0 +1,564 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html,
+body{
+    width: 100%;
+    height: 100%;
+   
+}
+#first{
+    width: 100%;
+    height: 100%;
+    
+}
+#nav{
+    width: 100%;
+    height: 15%;
+    background-color: white;
+    padding: 20px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+#nav #nav-left{
+    
+    display: flex;
+    align-items: center;
+    gap: 50px;
+
+}
+.one img{
+    margin-left: 30px;
+}
+
+.two{
+ font-size: 20px;
+ display: flex;
+ gap: 50px;
+ margin-left: 15%;
+ color: rgb(28, 28, 133);
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+}
+
+.three{
+    font-size: 20px;
+    display: flex;
+    gap: 60px;
+    margin-left: 20%;
+    color: rgb(28, 28, 133);
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+}
+
+#nav-bottom{
+    height: calc(100% - 15%);
+    background-color: #aadadd;
+    position: relative;
+    display: flex;
+}
+
+.left{
+    height:100% ;
+    width: 50%;
+    position: absolute;
+     background-color: #f5ebeb; 
+    
+}
+
+.left img{
+    height: 100%;
+    width: 90%;
+}
+
+.right{
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    padding: 90px 40px;
+    align-items: center;
+    justify-content: center;
+     background-color: #faf2f9; 
+}
+
+.right h2{
+    font-size: 50px;
+    font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  text-decoration: none;
+  
+
+}
+
+.right p{
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+
+
+#second{
+    width: 100%;
+    height: 120%;
+    background-color:white;
+   
+    position: relative;
+    margin-top: 60px;
+}
+#second h1{
+    font-size: 50px;
+    margin-left: 27%;
+}
+
+.container{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 10%; 
+    display: flex; 
+    align-items: center;
+    gap: 10px;
+    background-image: url();
+    background-color: white;
+}
+.box{
+    height: 500px;
+    width: 400px;
+    background-color: white;
+     margin-left: 30px; 
+    
+}
+.box img{
+    width: 400px;
+    
+}
+
+.box h2{
+    
+    margin-top: 25px;
+    font-size: 30px;
+
+}
+
+.box p{
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.box h4{
+    margin-top: 20px;
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 450;
+    text-decoration: none;
+}
+
+
+#third{
+    height:130%;
+    width: 100%;
+    background-color: #b89630;
+    display: flex;
+    
+}
+
+
+#third .lft{
+    height:100% ;
+    width: 50%;
+    /* position: relative;; */
+     background-color: white;
+}
+
+.lft h1{
+    margin-left: 100px;
+    font-size: 50px;
+    /* font-family: "Montserrat", sans-serif; */
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    
+}
+
+.lft p{
+    margin-left: 100px;
+    font-size: 22px;
+    margin-top: 40px;
+}
+
+.lft h6{
+    font-size: 30px;
+    margin-top: 70px;
+    margin-left: 100px;
+}
+
+button{
+    padding: 20px 100px;
+    margin-left: 80px; 
+    margin-top: 120px;
+
+    background-color: blue;
+    color: white;
+    border: none;
+    /* margin-left: 35%; */
+
+
+
+
+
+}
+
+#third .ryt{
+    width: 50%;
+    height: 100%;
+
+    
+    
+    align-items: center;
+    justify-content: center;
+     background-color: white;
+}
+
+.ryt img{
+    height: 90%;
+    width: 100%;
+    margin-left: 50px;
+    
+}
+
+#forth{
+    height: 700px;
+    width: 100%;
+    background-color:white;
+    display: flex;
+   padding-top: 50px;
+
+
+}
+#forth .lft1{
+    height: 100%;
+    width: 50%; 
+    background-color:white;
+
+}
+
+.lft1 h1{
+    margin-left: 60px;
+    font-size: 53px;
+
+
+}
+
+.lft1 p{
+    margin-left: 60px;
+    font-size: 20px;
+    margin-top: 40px;
+
+}
+
+.lft1 h6{
+    font-size: 30px;
+    margin-left: 60px;
+    margin-top: 70px;
+
+}
+
+
+
+#forth .ryt1{
+    height: 100%;
+    width: 55%;
+    background-color:white;
+    margin-left: 67px;
+
+}
+
+.ryt1 img{
+    height: 100%;
+    width: 90%;
+    margin-left: 40px;
+}
+
+#fifth{
+    height: 100%;
+    width: 100%;
+    background-color: #f5ebeb;
+    display: flex;
+}
+
+.lft2{
+    width: 70%;
+    height: 100%;
+    background-color: #f5ebeb;
+}
+
+.lft2 h1{
+    margin-left: 50px;
+    font-size: 50px;
+    font-family: "Raleway", sans-serif;
+    line-height: 1.0;
+    padding: 70px;
+    
+}
+
+.lft2 p{
+    font-size: 30px;
+    margin-left: 120px;
+}
+
+.ryt2{
+    width: 50%;
+    height: 100%;
+    background-color:#f5ebeb;
+}
+
+.ryt2 img{
+    width: 100%;
+    height: 100%;
+
+}
+
+#sixth{
+    height: 50%;
+    width: 100%;
+
+}
+
+#sixth h1{
+  padding: 100px 0px; 
+    font-size: 60px;
+    margin-left: 20%;
+    font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  text-decoration: none;
+  
+}
+
+#con{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    padding: 80px;
+    
+    
+}
+
+#con .img-ryt{
+    width: 50%;
+    height: 110%;
+    background-color: bisque;
+    display: flex;
+    align-items: center;
+    
+}
+
+.img-ryt img{
+    width: 90%;
+    height: 100%;
+    margin-left: 8%;
+    
+
+}
+
+.text-lft{
+    width: 50%;
+    height: 110%;
+    background-color: white ;
+}
+
+.text-lft h1{
+    margin-top: 30px;
+    margin-left: 30px;
+    font-size: 50px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+} 
+
+.text-lft p{
+
+    margin-top: 30px;
+    margin-left: 30px;
+    font-size: 20px;
+
+}
+
+.text-lft h6{
+    margin-top: 30px;
+    margin-left: 30px;
+    font-size: 20px;
+
+}
+
+#seventh{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    padding: 80px;
+    
+    
+}
+
+#seventh .text-left{
+    width: 50%;
+    height: 110%;
+    background-color: white;
+}
+.text-left h1{
+    margin-top: 30px;
+    margin-left: 30px;
+    font-size: 50px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+
+}
+
+.text-left p{
+    margin-top: 30px;
+    margin-left: 30px;
+    font-size: 20px;
+
+}
+
+.text-left h6{
+    margin-top: 30px;
+    margin-left: 30px;
+    font-size: 20px;
+
+}
+
+
+#seventh .img-right{
+    width: 50%;
+    height: 110%;
+    background-color: white;
+}
+.img-right img{
+    width: 100%;
+    height: 100%;
+    margin-left: 2%;
+    
+    
+}
+#eight{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    display: flex;
+
+}
+
+#eight .l-text{
+    width: 50%;
+    height: 100%;
+    background-color: black;
+}
+
+.l-text h1{
+    padding-top: 20%;
+    margin-left: 40px;
+    color: white;
+
+}
+
+.l-text p{
+    color: white;
+    font-size: 20px;
+    padding-top: 90px;
+    margin-left: 40px;
+}
+#eight .r-image{
+    width: 50%;
+    height: 100%;
+    background-color: black;
+    
+}
+.r-image img{
+    width:90%;
+    height: 100%;
+     border-radius: 50%;
+     margin-left: 40px;
+}
+
+#footer{
+    width: 100%;
+    height: 60%;
+    background-color: hsl(0, 48%, 94%);
+}
+
+#footer h1{
+    padding-top: 90px;
+    font-size: 70px;
+    margin-left: 180px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+
+
+}
+
+.btn-colored{
+    background-color: blue;
+    color: white;
+    border: none;
+    margin-left: 35%;
+}
+
+#footer-bottom{
+    width: 80%;
+    height: 100%;
+    background-color: white;
+
+}
+
+
+#footer-bottom .content{
+    width: 90%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: space-between;
+
+}
+
+.cls{
+    height: 200px;
+    width: 400px;
+    background-color: white;
+     margin-left: 30px; 
+     margin-top: 10px;
+}
+
+.cls img{
+    margin-top: 10px;
+    width: 40%;
+    height: 35%;
+    margin-left: 30px;
+
+}
+.cls p{
+    margin-left: 30px;
+    font-size: 35px;
+    color: rgb(27, 27, 87);
+  
+}
+
+.cls h3{
+    margin-left: 40px;
+    padding:5px 0;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    
+}
+
+ 
+
+
